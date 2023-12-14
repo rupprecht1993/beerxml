@@ -29,6 +29,7 @@ jobs:
           python-version: '3.11'
       - name: Build and publish
         run: |
+          pip install poetry==1.7.1
           poetry config pypi-token.pypi ${{ secrets.PYPI_TOKEN }}
           poetry publish --build --dry-run
   deploy-package:
@@ -42,5 +43,6 @@ jobs:
           python-version: '3.11'
       - name: Build and publish
         run: |
+          pip install poetry==1.7.1
           poetry config pypi-token.pypi ${{ secrets.PYPI_TOKEN }}
           poetry publish --build
