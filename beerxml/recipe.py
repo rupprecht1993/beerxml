@@ -2,7 +2,7 @@ from enum import Enum
 from typing import Optional
 
 import pydantic_core
-from pydantic import BaseModel, Field, field_validator, ValidationError
+from pydantic import BaseModel, Field, field_validator
 
 from beerxml.equipment import Equipment
 from beerxml.fermentable import Fermentable

@@ -15,6 +15,7 @@ xmltodict = "^0.13.0"
 ruff = "^0.1.7"
 mypy = "^1.7.1"
 bandit = "^1.7.6"
+types-xmltodict = "^0.13.0.3"
 
 [build-system]
 requires = ["poetry-core"]
