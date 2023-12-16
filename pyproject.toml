@@ -1,16 +1,17 @@
 [tool.poetry]
 name = "beerxml"
-version = "0.0.3b"
+version = "0.0.4b"
 description = "The beerxml python package is a powerful tool designed to streamline the process of working with BeerXML files, ensuring that specific beer recipes adhere to the BeerXML standard. BeerXML is a widely adopted XML-based standard for representing brewing recipes, allowing brewers to share and exchange their recipes seamlessly."
 authors = ["YourOwnBeer <brew@yourownbeer.de>"]
 keywords = ["beerxml", "beer", "xml", "beerxml standard"]
 license = "MIT"
 readme = "README.md"
 
-[project.urls]
-Homepage = "https://yourownbeer.de"
-Repository = "https://github.com/lowmann15/beerxml"
-Issues = "https://github.com/lowmann15/beerxml/issues"
+[tool.poetry.metadata.homepage]
+url = "https://yourownbeer.de"
+
+[tool.poetry.metadata.repository]
+url = "https://github.com/lowmann15/beerxml"
 
 [tool.poetry.dependencies]
 python = "^3.10"
